@@ -13,22 +13,7 @@
  */
 export enum Html5QrcodeSupportedFormats {
     QR_CODE = 0,
-    AZTEC,
-    CODABAR,
-    CODE_39,
-    CODE_93,
     CODE_128,
-    DATA_MATRIX,
-    MAXICODE,
-    ITF,
-    EAN_13,
-    EAN_8,
-    PDF_417,
-    RSS_14,
-    RSS_EXPANDED,
-    UPC_A,
-    UPC_E,
-    UPC_EAN_EXTENSION,
 }
 
 /** {@code Html5QrcodeSupportedFormats} to friendly name map. */
@@ -36,22 +21,7 @@ const html5QrcodeSupportedFormatsTextMap
     : Map<Html5QrcodeSupportedFormats, string> = new Map(
     [
         [ Html5QrcodeSupportedFormats.QR_CODE, "QR_CODE" ],
-        [ Html5QrcodeSupportedFormats.AZTEC, "AZTEC" ],
-        [ Html5QrcodeSupportedFormats.CODABAR, "CODABAR" ],
-        [ Html5QrcodeSupportedFormats.CODE_39, "CODE_39" ],
-        [ Html5QrcodeSupportedFormats.CODE_93, "CODE_93" ],
         [ Html5QrcodeSupportedFormats.CODE_128, "CODE_128" ],
-        [ Html5QrcodeSupportedFormats.DATA_MATRIX, "DATA_MATRIX" ],
-        [ Html5QrcodeSupportedFormats.MAXICODE, "MAXICODE" ],
-        [ Html5QrcodeSupportedFormats.ITF, "ITF" ],
-        [ Html5QrcodeSupportedFormats.EAN_13, "EAN_13" ],
-        [ Html5QrcodeSupportedFormats.EAN_8, "EAN_8" ],
-        [ Html5QrcodeSupportedFormats.PDF_417, "PDF_417" ],
-        [ Html5QrcodeSupportedFormats.RSS_14, "RSS_14" ],
-        [ Html5QrcodeSupportedFormats.RSS_EXPANDED, "RSS_EXPANDED" ],
-        [ Html5QrcodeSupportedFormats.UPC_A, "UPC_A" ],
-        [ Html5QrcodeSupportedFormats.UPC_E, "UPC_E" ],
-        [ Html5QrcodeSupportedFormats.UPC_EAN_EXTENSION, "UPC_EAN_EXTENSION" ]
     ]
 );
 
